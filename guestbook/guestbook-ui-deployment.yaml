@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: guestbook-ui
 spec:
-  revisionHistoryLimit: 3
+  revisionHistoryLimit: 4
   progressDeadlineSeconds: 30
   selector:
     matchLabels:
