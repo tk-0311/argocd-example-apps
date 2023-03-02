@@ -18,7 +18,7 @@ spec:
         image: gcr.io/google-samples/gb-frontend:v4
         resources:
           requests:
-            cpu: 120m
-            memory: 150Mi
+            cpu: 100m
+            memory: 100Mi
         ports:
         - containerPort: 80
